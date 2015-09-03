@@ -1,0 +1,13 @@
+<launch>
+	<arg name="usb" default="1"/>
+	<arg name="acm" default="0"/>
+	<node name="laser3D" pkg="laser3D" type="bin_nodo_laser3D" output="screen" launch-prefix="xterm -e">
+	</node>
+	<node name="dynamixel" pkg="laser3D" type="bin_nodo_dynamixel" > 
+		<param name="portUSB" type="int" value="0" />
+                <param name="MOTORID" type="int" value="5" />
+	</node>
+	<node name="hokuyo" pkg="laser3D" type="bin_nodo_hokuyo" >
+		<param name="portACM" value="/dev/laser"/>
+	</node>
+</launch>

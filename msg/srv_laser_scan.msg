@@ -1,0 +1,1 @@
+sensor_msgs/LaserScan hokuyo_scan

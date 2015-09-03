@@ -1,0 +1,20 @@
+<package>
+  <description brief="laser3D">
+
+     laser3D
+
+  </description>
+  <author>Raul</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/laser3D</url>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="pcl_conversions"/>
+  <depend package="pcl_ros"/>
+  
+</package>
+
+

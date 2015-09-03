@@ -1,0 +1,11 @@
+uint16 positionSpeed
+uint16 measureSpeed
+float32 initialPosition
+float32 finalPosition
+int64 anguloMin
+int64 anguloMax
+int64 rangoMin
+int64 rangoMax
+
+---
+sensor_msgs/PointCloud2 cloud

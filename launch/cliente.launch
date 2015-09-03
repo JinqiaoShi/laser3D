@@ -1,0 +1,10 @@
+<launch>
+	<node name="cliente" pkg="laser3D" type="bin_cliente" output="screen" launch-prefix="xterm -e">
+		<param name="MotorPosInicial" type="int" value="0" />
+		<param name="MotorPosFinal"   type="int" value="185" />
+		<param name="MotorVelMedida"  type="int" value="50" />
+		<param name="MotorVelPosi"    type="int" value="50" />
+		<param name="LaserAnguloMin"  type="int" value="-45" />
+		<param name="LaserAnguloMax"  type="int" value="225" />
+	</node>
+</launch>

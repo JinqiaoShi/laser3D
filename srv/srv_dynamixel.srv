@@ -1,0 +1,7 @@
+float32 position_i
+uint16 speed
+---
+float32 position_o
+uint16 work
+uint16 comm
+

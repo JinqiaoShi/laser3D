@@ -1,0 +1,5 @@
+<launch>
+	<node name="hokuyo" pkg="laser3D" type="bin_nodo_hokuyo" output="screen" launch-prefix="xterm -e">
+		<param name="portACM" value="/dev/laser"/>
+	</node>
+</launch>
